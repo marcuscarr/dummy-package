@@ -8,4 +8,8 @@ describe('test', function () {
   it('works', function () {
     chai.expect(true).to.be.true;
   });
+
+  it('fails', function () {
+    chai.expect(false).to.be.true
+  })
 });
