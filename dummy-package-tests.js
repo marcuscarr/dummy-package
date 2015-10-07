@@ -9,7 +9,13 @@ describe('test', function () {
     chai.expect(true).to.be.true;
   });
 
+  it('works with a delay', function(done) {
+    chai.expect(true).to.be.true;
+    done();
+  });
+
   it('fails', function () {
-    chai.expect(false).to.be.true
-  })
+    chai.expect(false).to.be.true;
+  });
+
 });
